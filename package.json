@@ -1,0 +1,23 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "description": "Full-stack Library Management System with React, Node.js, Express, and SQLite",
+  "scripts": {
+    "start": "node backend/server.js",
+    "backend": "node backend/server.js",
+    "frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install --legacy-peer-deps"
+  },
+  "keywords": [
+    "library",
+    "management",
+    "react",
+    "express",
+    "sqlite",
+    "better-sqlite3",
+    "tailwind"
+  ],
+  "author": "",
+  "license": "ISC"
+}
